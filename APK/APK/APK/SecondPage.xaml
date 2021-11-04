@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="APK.SecondPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="..." BackgroundColor="Transparent" TextColor="Black" Clicked="SettingsButton" WidthRequest="60" HeightRequest="60" FontSize="32" FontAttributes="Bold" HorizontalOptions="Start"/>
+            <Label Text="W tym miejscu bedzie mapa" HorizontalTextAlignment="Center" FontSize="35" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

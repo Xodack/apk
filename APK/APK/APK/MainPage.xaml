@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="APK.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="DarkGray" Padding="24" CornerRadius="0">
+            <Label Text="Nawigacja" HorizontalTextAlignment="Center" TextColor="White" FontAttributes="Bold" FontSize="36"/>
+        </Frame>
+        <Label Text="Witaj!" HorizontalTextAlignment="Center" FontSize="42" TextColor="Black" FontAttributes="Bold" Padding="30,20,30,0"/>
+        <Label Text="Dokąd ruszamy?" HorizontalTextAlignment="Center" FontSize="42" TextColor="Black" FontAttributes="Bold" Padding="30,0,30,50"/>
+        
+        <Button Text="Zaczynamy" BackgroundColor="Red" Clicked="ZaczynamyButton" WidthRequest="200" FontSize="28" FontAttributes="Bold" HorizontalOptions="Center" />
+
+
+
+    </StackLayout>
+
+</ContentPage>
